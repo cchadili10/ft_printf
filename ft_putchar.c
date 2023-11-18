@@ -6,13 +6,13 @@
 /*   By: hchadili <hchadili@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/15 19:27:05 by hchadili          #+#    #+#             */
-/*   Updated: 2023/11/16 00:00:47 by hchadili         ###   ########.fr       */
+/*   Updated: 2023/11/18 01:03:30 by hchadili         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-void ft_putchar(char c, int *count)
+void	ft_putchar(char c, int *count)
 {
 	write (1, &c, 1);
 	*count += 1;
